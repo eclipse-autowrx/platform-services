@@ -1,0 +1,21 @@
+# Node.js
+**/node_modules/
+**/dist/
+**/build/
+**/.npm/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/package-lock.json
+**/yarn.lock
+
+# Python
+**/__pycache__/
+**/*.py[cod]
+**/*$py.class
+
+# IDEs and editors
+**/.idea/
+**/.vscode/
+**/*.swp
+**/*~
