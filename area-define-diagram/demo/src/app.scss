@@ -1,0 +1,28 @@
+.app-container {
+    padding: 30px;
+
+    .custom-btn {
+        color: #1976d2;
+        background-color: white;
+
+        &.active {
+            background-color: #1976d2;
+            color: white;
+        }
+    }
+    
+
+    .app-container__header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .app-container__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
