@@ -1,16 +1,21 @@
 # Platform Services
 
-This repository provides a collection of platform services and reusable components.
+This repository offers a suite of platform services and reusable components designed to accelerate development.
 
 ## Services
 
 ### 1. project-editor
 
-A reusable React component offering a comprehensive project editing experience. Features include a file tree, tabbed code editor with syntax highlighting, file operations, and ZIP import/export support.
+A flexible React component that delivers a full-featured project editing environment. Key features include a navigable file tree, tabbed code editor with syntax highlighting, robust file operations, and support for ZIP import/export.
 
 ### 2. area-define-diagram
 
-Upload an image, select an area by dragging, and define hover content and links for that area. This service enables interactive, hoverable, and clickable regions on static images.
+A tool for creating interactive images: upload an image, select areas by dragging, and assign hover content or links to each region. Ideal for building clickable, information-rich diagrams.
 
 ### 3. rust-kuksa-client
-Rust client to communication with KUKSA
+
+A Rust library for seamless communication with KUKSA, enabling integration with automotive data and services.
+
+### 4. sample-kuksa-setget
+
+Python code examples demonstrating how to interact with the KUKSA client for setting and retrieving data.
