@@ -1,0 +1,13 @@
+[package]
+name = "databroker-proto"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tonic = { version = "0.11.0", features = ["transport", "channel", "codegen", "prost"] }
+prost = "0.12.6"
+prost-types = "0.12.6"
+
+[build-dependencies]
+tonic-build = { version = "0.11.0", features = ["transport", "prost"] }
+protobuf-src = "1.1.0"

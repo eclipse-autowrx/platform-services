@@ -1,0 +1,28 @@
+[package]
+name = "simple-kuksa-client"
+version = "0.1.0"
+edition = "2021"
+description = "A simple Kuksa Client. suports get/set/subscribe sensors and actuators"
+license = "MIT"
+
+[dependencies]
+clap = { version="4.2", features = [
+    "std",
+    "env",
+    "derive",
+    "help",
+    "error-context",
+    "usage",
+] }
+databroker-proto = { path = "databroker-proto" }
+# prost has no features
+prost = "0.12.6"
+# prost-types has no features
+prost-types = "0.12.6"
+# tokio does not enable features by default
+tokio = { version= "1.38.0", features = ["full"] }
+# tokio-stream has no features
+tokio-stream = "0.1.8"
+tonic = { version = "0.11.0", default-features = false }
+tonic-build = { version = "0.11.0", default-features = false }
+http = "0.2.8"
