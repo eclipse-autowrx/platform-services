@@ -20,12 +20,12 @@ export default [
     {
         input: 'src/index.ts',
         output: [
-            // {
-            //     file: packageJson.main,
-            //     format: 'cjs',
-            //     sourcemap: false,
-            //     name: 'image-area-library'
-            // },
+            {
+                file: packageJson.main,
+                format: 'cjs',
+                sourcemap: false,
+                name: 'image-area-library'
+            },
             {
                 file: packageJson.module,
                 format: 'esm',
